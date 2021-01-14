@@ -1,7 +1,7 @@
 *
 {
     padding: 0;
-    margin: 12;
+    margin: 1;
 
 }
 body
@@ -12,6 +12,12 @@ body
       box-sizing: border-box;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+.logotype ul li
+{
+   width: 120;
+   margin-left: 20px;
+   pad: 20px;
 }
 .menu-bar
 {
@@ -43,13 +49,6 @@ body
 {
     display: none;
 }
-.menu-bar ul li:hover .sub-menu-1
-{
-    display: block;
-    position: absolute;
-    background: #2bab0d;
-    margin-top: 15px;
-    margin-left: -15px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
